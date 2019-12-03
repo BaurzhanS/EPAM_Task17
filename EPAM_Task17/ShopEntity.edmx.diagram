@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9863c991689494ea865735a1bfffd60" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopModel.Carts" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.Comments" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.Customers" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.Orders" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.OrdersCartsProductsSellers" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.Products" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopModel.Sellers" Width="1.5" PointX="3" PointY="14" IsExpanded="true" />
+        <AssociationConnector Association="ShopModel.FK__Carts__CustomerI__1CF15040" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__OrdersCar__CartI__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__Comments__Custom__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__Comments__Produc__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__Orders__Customer__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__OrdersCar__Order__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK_Orders_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__OrdersCar__Produ__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopModel.FK__OrdersCar__Selle__239E4DCF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
